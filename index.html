@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="main" action="" method="post">
+        <div>
+            <label for="user">username</label>
+            <input type="text" name="username" id="user" placeholder="enter username..">
+            <span class="errors-text" id="errors_username"></span>
+        </div>
+        <div>
+            <label for="pas">password</label>
+            <input type="password" name="password" id="pas" placeholder="enter password">
+            <span class="errors-text" id="errors_password"></span>
+        </div>
+        <div>
+            <label for="pass">repeat password</label>
+            <input type="password" name=" password2" id="pass" placeholder="repeat password">
+            <span class="errors-text" id="errors_password2"></span>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">male</label>
+            <span class="errors-text" id="errors_gender"></span>
+            <input type="radio" name="gender" id="female">
+            <label for="female">female</label>
+            <span class="errors-text" id="errors_gender"></span>
+        </div>
+        <div>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">i agree</label>
+            <span class="errors-text" id="errors_agree"></span>
+        </div>
+        <button type="submit">submit</button>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
